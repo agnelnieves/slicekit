@@ -13,7 +13,9 @@
     "build": "yarn build-storybook && shx mv storybook-static dist",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
-    "slicemachine": "start-slicemachine --port 9999"
+    "slicemachine": "start-slicemachine --port 9999",
+    "storybook": "nuxt storybook",
+    "build-storybook": "nuxt storybook build"
   },
   "dependencies": {
     "@nuxtjs/prismic": "^1.2.4",
@@ -24,6 +26,7 @@
     "vue-slicezone": "^0.0.28"
   },
   "devDependencies": {
+    "@nuxtjs/storybook": "2.2.2",
     "prismic-cli": "3.8.3-beta.0",
     "shx": "^0.3.3",
     "slice-machine-ui": "^0.0.38",
