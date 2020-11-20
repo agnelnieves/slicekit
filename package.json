@@ -1,8 +1,8 @@
 {
-  "name": "slice-library-starter-nuxt",
+  "name": "slicekit",
   "version": "0.0.0",
-  "description": "An awesome Slice Library made with Nuxt.js",
-  "author": "<author>",
+  "description": "Useful & modular prismic slices to get your project started",
+  "author": "Agnel Nieves <agnelnieves@gmail.com>",
   "license": "MIT",
   "main": "slices/index.js",
   "scripts": {
