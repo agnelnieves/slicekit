@@ -63,6 +63,15 @@
             "placeholder": ""
           },
           "type": "Text"
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "id": "image",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       }
     }

@@ -11,7 +11,7 @@
       "description": [
         {
           "type": "paragraph",
-          "text": "asdfasdfasdfasdf",
+          "text": "A nice card deck for your project's Highlights",
           "spans": []
         }
       ],
@@ -20,7 +20,7 @@
           "cardTitle": [
             {
               "type": "heading4",
-              "text": "incubate best-of-breed vortals",
+              "text": "Highlight 1",
               "spans": []
             }
           ],
@@ -35,13 +35,22 @@
             "link_type": "Web",
             "url": "https://slicemachine.dev"
           },
-          "cardCTALabel": "A text of type \"Card CTA Label\" that conveys "
+          "cardCTALabel": "Check it out",
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/127420c8-a520-4aae-a2da-b57b0c163ff3_WV0x4C4JV8A.jpg?w=900&h=500"
+          }
         },
         {
           "cardTitle": [
             {
               "type": "heading4",
-              "text": "incubate best-of-breed vortals 2",
+              "text": "Highlight 2",
               "spans": []
             }
           ],
@@ -56,13 +65,22 @@
             "link_type": "Web",
             "url": "https://slicemachine.dev"
           },
-          "cardCTALabel": "A text of type \"Card CTA Label\" that conveys "
+          "cardCTALabel": "Check it out",
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/127420c8-a520-4aae-a2da-b57b0c163ff3_WV0x4C4JV8A.jpg?w=900&h=500"
+          }
         },
         {
           "cardTitle": [
             {
               "type": "heading4",
-              "text": "incubate best-of-breed vortals 3",
+              "text": "Highlight 3",
               "spans": []
             }
           ],
@@ -77,7 +95,16 @@
             "link_type": "Web",
             "url": "https://slicemachine.dev"
           },
-          "cardCTALabel": "A text of type \"Card CTA Label\" that conveys "
+          "cardCTALabel": "Check it out",
+          "image": {
+            "dimensions": {
+              "width": 900,
+              "height": 500
+            },
+            "alt": "Placeholder image",
+            "copyright": null,
+            "url": "https://images.prismic.io/important-sm-images/127420c8-a520-4aae-a2da-b57b0c163ff3_WV0x4C4JV8A.jpg?w=900&h=500"
+          }
         }
       ]
     }
