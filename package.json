@@ -1,7 +1,7 @@
 {
   "name": "slicekit",
   "version": "0.0.0",
-  "description": "Useful & modular prismic slices to get your project started",
+  "description": "Useful & modular Prismic slices to get your project started",
   "author": "Agnel Nieves <agnelnieves@gmail.com>",
   "license": "MIT",
   "main": "slices/index.js",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@nuxtjs/storybook": "2.2.2",
+    "@nuxtjs/tailwindcss": "^3.2.0",
     "prismic-cli": "3.8.3-beta.0",
     "shx": "^0.3.3",
     "slice-machine-ui": "^0.0.38",
