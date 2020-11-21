@@ -22,7 +22,7 @@ export const DefaultSlice = () => ({
       }
     };
   },
-  template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
+  template: '<div style="background: #3182ce; padding: 20px; height: 120vh; display: flex; justify-content: center; align-items: center;"><h2 style="font-size: 3rem; color: white;">Page Content</h2><slice-zone :slices="[ mock ]" :resolver="resolver" /></div>',
 });
 
 DefaultSlice.storyName = mocks[0].name;
