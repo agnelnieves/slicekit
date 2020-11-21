@@ -13,7 +13,7 @@
     "build": "yarn build-storybook && shx mv storybook-static dist",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
-    "slicemachine": "start-slicemachine --port 9999",
+    "slicemachine": "start-slicemachine --port 5000",
     "storybook": "nuxt storybook",
     "build-storybook": "nuxt storybook build",
     "prismic:slice": "prismic sm --create-slice"

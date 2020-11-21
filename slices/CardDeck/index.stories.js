@@ -23,8 +23,6 @@ export const DefaultSlice = () => ({
         newMock.primary.title = customMocks[0].primary.title
         newMock.primary.items = [...customMocks[0].primary.items]
 
-        console.log(newMock)
-
         return newMock
       })(),
       resolver() {
