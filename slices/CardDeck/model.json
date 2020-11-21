@@ -1,0 +1,70 @@
+{
+  "id": "card_deck",
+  "type": "SharedSlice",
+  "name": "CardDeck",
+  "description": "CardDeck",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CardDeck",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your section",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "cardTitle": {
+          "config": {
+            "label": "Card Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          },
+          "type": "StructuredText"
+        },
+        "cardDescription": {
+          "config": {
+            "label": "Card Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "cardCTALink": {
+          "config": {
+            "label": "Card CTA Link",
+            "placeholder": "",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "cardCTALabel": {
+          "config": {
+            "label": "Card CTA Label",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      }
+    }
+  ]
+}

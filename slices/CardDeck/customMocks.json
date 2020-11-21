@@ -1,0 +1,85 @@
+[
+  {
+    "primary": {
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Card deck title",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "asdfasdfasdfasdf",
+          "spans": []
+        }
+      ],
+      "items": [
+        {
+          "cardTitle": [
+            {
+              "type": "heading4",
+              "text": "incubate best-of-breed vortals",
+              "spans": []
+            }
+          ],
+          "cardDescription": [
+            {
+              "type": "paragraph",
+              "text": "drive e-business e-markets",
+              "spans": []
+            }
+          ],
+          "cardCTALink": {
+            "link_type": "Web",
+            "url": "https://slicemachine.dev"
+          },
+          "cardCTALabel": "A text of type \"Card CTA Label\" that conveys "
+        },
+        {
+          "cardTitle": [
+            {
+              "type": "heading4",
+              "text": "incubate best-of-breed vortals 2",
+              "spans": []
+            }
+          ],
+          "cardDescription": [
+            {
+              "type": "paragraph",
+              "text": "drive e-business e-markets",
+              "spans": []
+            }
+          ],
+          "cardCTALink": {
+            "link_type": "Web",
+            "url": "https://slicemachine.dev"
+          },
+          "cardCTALabel": "A text of type \"Card CTA Label\" that conveys "
+        },
+        {
+          "cardTitle": [
+            {
+              "type": "heading4",
+              "text": "incubate best-of-breed vortals 3",
+              "spans": []
+            }
+          ],
+          "cardDescription": [
+            {
+              "type": "paragraph",
+              "text": "drive e-business e-markets",
+              "spans": []
+            }
+          ],
+          "cardCTALink": {
+            "link_type": "Web",
+            "url": "https://slicemachine.dev"
+          },
+          "cardCTALabel": "A text of type \"Card CTA Label\" that conveys "
+        }
+      ]
+    }
+  }
+]
