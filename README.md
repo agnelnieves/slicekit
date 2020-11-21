@@ -1,6 +1,6 @@
 <img style="margin-bottom: 20px" width="200" src="static/logo.svg">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b125db41-d3f2-45dc-857a-574fabf77ac6/deploy-status)](https://app.netlify.com/sites/slicekit/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11417ccd-aca2-44c2-8e9f-5a142bb876a1/deploy-status)](https://app.netlify.com/sites/slicekit/deploys)
 
 Slicekit is a Simple, Useful & modular Prismic slices to get your project started.
 
