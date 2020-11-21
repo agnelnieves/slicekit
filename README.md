@@ -1,29 +1,26 @@
-### **🚨⚠🚨 Storybook `6.0.x` Static Deployment Issue 🚨⚠🚨**
+<img style="margin-bottom: 20px" width="200" src="static/logo.svg">
 
-**Storybook `6.0.x` has an issue when building it static for deployment. This issue is preventing navigation between stories when visiting it, and is a known of Storybook ([storybookjs/storybook#11958](https://github.com/storybookjs/storybook/issues/11958)). Thankfully as of `11/19/2020` Storybook `6.1.0` [has been released](https://www.npmjs.com/package/@storybook/vue), fixing this bug.**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b125db41-d3f2-45dc-857a-574fabf77ac6/deploy-status)](https://app.netlify.com/sites/slicekit/deploys)
 
-**If you are running Storybook `6.0.x`, which most of you should be by using the Nuxt.js Storybook module prior to `11/19/2020`, you can upgrade to Storybook `6.1.0` by deleting your `yarn.lock` or `package-lock.json`, as well as your `node_modules` folder (just to be on the safe side), you can then run `$ yarn install` or `$ npm install` again. This should take the latest version of Storybook: you can check it by inspecting your lock file and looking for (`ctrl+f`) `@storybook/vue`, installed version should be visible under the key `version` of the lock definition, it should be `6.1.0` or higher.**
+Slicekit is a Simple, Useful & modular Prismic slices to get your project started.
 
-**In any case regarding _#SliceContest_ if even after attempting this fix your deployed version of Storybook does not behave as it does in development mode (`$ yarn storybook`), have no worries, we will attempt to run it in development mode if we notice something is wrong.**
-
-# Slice Library Nuxt.js Starter
-
-> Looking for the React counterpart? [Check out the Next.js starter](https://github.com/prismicio-community/slice-library-starter-next#readme).
+## Original docs
 
 A starter to create your slice library with [Nuxt.js](https://nuxtjs.org) and [Slice Machine](https://slicemachine.dev) for [#SliceContest](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost). This document is here to help you through the whole process of creating your library but is not comprehensive to what you can do, unleash your creativity!
 
-- [📚 &nbsp;Useful Links](#user-content--useful-links)
-- [🏁 &nbsp;Getting Started](#user-content--getting-started)
+- [Original docs](#original-docs)
+- [📚 &nbsp;Useful Links](#-useful-links)
+- [🏁 &nbsp;Getting Started](#-getting-started)
   - [Setting up Your Project](#setting-up-your-project)
   - [Using the Prismic CLI](#using-the-prismic-cli)
   - [Setting up Prismic and Slice Machine](#setting-up-prismic-and-slice-machine)
-- [👩‍💻 &nbsp;Developing](#user-content--developing)
+- [👩‍💻 &nbsp;Developing](#-developing)
   - [Creating a Slice](#creating-a-slice)
   - [Launching the Slice Builder](#launching-the-slice-builder)
-- [🚀 &nbsp;Deploying Your Storybook](#user-content--deploying-your-storybook)
+- [🚀 &nbsp;Deploying Your Storybook](#-deploying-your-storybook)
   - [Hosting on Netlify](#hosting-on-netlify)
   - [Hosting on Vercel](#hosting-on-vercel)
-- [☑️ &nbsp;Submission Checklist](#user-content--submission-checklist)
+- [☑️ &nbsp;Submission Checklist](#️-submission-checklist)
 
 ## 📚 &nbsp;Useful Links
 
@@ -43,9 +40,9 @@ Start by [forking this repository](https://github.com/prismicio-community/slice-
 Once the repository is forked, you can clone it locally and install its dependencies:
 
 ```bash
-$ git clone https://github.com/<your_username>/slice-library-starter-nuxt
-$ cd slice-library-starter-nuxt
-$ yarn install # if you use npm: `$ npm install`
+git clone https://github.com/<your_username>/slice-library-starter-nuxt
+cd slice-library-starter-nuxt
+yarn install # if you use npm: `$ npm install`
 ```
 
 While your package manager installs the dependencies, you can already update the [LICENSE](./LICENSE) file to replace `<copyright holders>` with your name. You can also update the [package.json](./package.json) file to fill the `author` field~
@@ -101,7 +98,7 @@ $ yarn prismic sm --bootstrap
 Finally, and since that's a requirement for this contest, you will want to bootstrap a Storybook project. Thankfully Slice Machine comes with a handy command for that:
 
 ```bash
-$ yarn prismic sm --add-storybook
+yarn prismic sm --add-storybook
 ```
 
 This should create a simple Storybook inside your project. Bear in mind though that this one is still quite basic, feel free to go fancy by adding [addons](https://storybook.js.org/addons) and more! (although you might want to [stick with version `5.x.x`](https://github.com/prismicio-community/slice-library-starter-nuxt/issues/2#issuecomment-721650137) of those addons because Slice Machine installs version `2.2.2` of `@nuxtjs/storybook` to prevent some issues) Here's an example of a more elaborated Storybook documentation of a slice library for inspiration: [sms-hoy-storybook.netlify.app](https://sms-hoy-storybook.netlify.app)
@@ -144,9 +141,7 @@ $ yarn prismic sm --develop
 This will launch Storybook on port `3003` and the Slice Builder on port `9999`, you can open a third terminal to create slices from or launch other commands...
 
 > ℹ We are aware that it will be more convenient to launch Storybook and the Slice Builder with a single command and are working on it~
-
 > ⚠ Storybook is known for being quite picky with its dependencies. If you experience a blank page when running it with a lot of errors in the browser console try deleting your lock file and installing dependencies again, should fix the issue.
-
 > ⚠ We noticed that in some rare case you can get stuck in a `401 [Unauthorized]` loop prompting you to log in when running the Slice Machine develop command. If this happens to you check if your Prismic repository was created, if not, try running `$ yarn prismic login` and `$ yarn prismic sm --bootstrap` again.
 
 For comprehensive documentation about using the Slice Builder check the dedicated [documentation](https://www.slicemachine.dev/documentation/slice-builder#using-the-slice-builder).

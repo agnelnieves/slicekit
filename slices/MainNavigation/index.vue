@@ -7,7 +7,7 @@
   >
     <div id="nav-wrapper" class="bg-white	w-full  mx-auto" :class="{ 'rounded-xl': !scrolled, 'max-w-5xl': !scrolled, 'max-w-full': scrolled, 'p-6': !scrolled, 'p-4': scrolled, 'bg-opacity-100': scrolled  }">
       <div class="nav-content flex justify-between	items-center max-w-5xl mx-auto">
-        <img width="100" src="logo.svg" alt="">
+        <img width="120" src="logo.svg" alt="">
         <!-- <prismic-image style="max-width: 200px" :field="slice.primary.logo"/> -->
         <ul class="m-0 p-0 hidden sm:flex">
           <li v-for="(link,i) in slice.items" :key="i">
