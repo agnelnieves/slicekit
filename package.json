@@ -15,7 +15,8 @@
     "prismic": "prismic",
     "slicemachine": "start-slicemachine --port 9999",
     "storybook": "nuxt storybook",
-    "build-storybook": "nuxt storybook build"
+    "build-storybook": "nuxt storybook build",
+    "prismic:slice": "prismic sm --create-slice"
   },
   "dependencies": {
     "@nuxtjs/prismic": "^1.2.4",
