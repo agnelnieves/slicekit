@@ -58,7 +58,13 @@ export default {
     transpile: ["vue-slicezone", "nuxt-sm"]
   },
   storybook: {
-    stories: ["~/slices/**/*.stories.js"]
+    stories: ["~/slices/**/*.stories.js"],
+    addons: [{
+      name: '@storybook/addon-essentials',
+      options: {
+        actions: false,
+      }
+    }]
   },
   ignore: ["**/*.stories.js"]
 };
