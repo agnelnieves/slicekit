@@ -10,16 +10,20 @@
         <div class="px-5 box-content mx-auto">
           <prismic-rich-text class="text-3xl leading-8 font-semibold mt-4 sm:mt-0" :field="card.cardTitle" />
           <prismic-rich-text :field="card.cardDescription" />
-          <prismic-link class="text-white bg-blue-600  font-bold py-3 px-5 mb-4 sm:mb-0 rounded-full inline-block hover:bg-blue-700 box-content text-base mt-4" :field="card.cardCTALink">
+           <Button is-centered :field="card.cardCTALink">
             {{ card.cardCTALabel }}
-          </prismic-link>
+          </Button>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script>
+import Button from "@/components/Button.vue"
 export default {
+  components: {
+    Button
+  },
   props: {
     slice: {
       type: Object,
