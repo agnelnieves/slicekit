@@ -10,19 +10,19 @@
         <div class="px-5 box-content mx-auto">
           <prismic-rich-text class="text-3xl leading-8 font-semibold mt-4 sm:mt-0" :field="card.cardTitle" />
           <prismic-rich-text :field="card.cardDescription" />
-           <Button is-centered :field="card.cardCTALink">
+           <SkButton is-centered :field="card.cardCTALink">
             {{ card.cardCTALabel }}
-          </Button>
+          </SkButton>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script>
-import Button from "@/components/Button.vue"
+import SkButton from "@/components/SkButton.vue"
 export default {
   components: {
-    Button
+    SkButton
   },
   props: {
     slice: {

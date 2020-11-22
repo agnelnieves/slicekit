@@ -4,9 +4,9 @@
       <div class="max-w-md p-4">
         <prismic-rich-text :field="slice.primary.title" class="text-4xl sm:text-5xl leading-11 font-bold leading-tight mb-4" />
         <prismic-rich-text :field="slice.primary.description" class=" text-lg text-gray-600 max-w-sm"/>
-        <Button :field="slice.primary.ctaLink">
+        <SkButton :field="slice.primary.ctaLink">
           {{ slice.primary.ctaLabel }}
-        </Button>
+        </SkButton>
       </div>
       <div class="sm:max-w-xs md:max-w-sm p-4">
         <prismic-image :field="slice.primary.image" class="rounded-3xl max-w-full" />
@@ -15,10 +15,10 @@
   </section>
 </template>
 <script>
-import Button from "@/components/Button.vue"
+import SkButton from "@/components/SkButton.vue"
 export default {
   components: {
-    Button
+    SkButton
   },
   props: {
     slice: {

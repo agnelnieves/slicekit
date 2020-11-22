@@ -5,8 +5,18 @@
     role="navigation"
     aria-label="main navigation"
   >
-    <div id="nav-wrapper" class="bg-white	w-full  mx-auto" :class="{ 'rounded-xl': !scrolled, 'max-w-5xl': !scrolled, 'max-w-full': scrolled, 'p-6': !scrolled, 'p-4': scrolled, 'bg-opacity-100': scrolled  }">
-      <div class="nav-content flex justify-between	items-center max-w-5xl mx-auto">
+    <div
+    id="nav-wrapper"
+    class="bg-white	w-full mx-auto"
+    :class="{
+      'rounded-xl': !scrolled,
+      'max-w-5xl': !scrolled,
+      'max-w-full': scrolled,
+      'p-6': !scrolled,
+      'p-2': scrolled,
+      'bg-opacity-100': scrolled
+      }">
+      <div class="nav-content flex justify-between items-center max-w-5xl mx-auto">
         <img width="120" src="logo.svg" alt="">
         <!-- <prismic-image style="max-width: 200px" :field="slice.primary.logo"/> -->
         <ul class="m-0 p-0 hidden sm:flex">

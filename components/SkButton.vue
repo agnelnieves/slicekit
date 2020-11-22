@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Button',
+  name: 'SkButton',
   props: {
     field: {
       type: Object,
