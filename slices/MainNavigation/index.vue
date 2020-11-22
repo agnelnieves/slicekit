@@ -7,13 +7,13 @@
   >
     <div
       id="nav-wrapper"
-      class="bg-white w-full mx-auto"
+      class="bg-white w-full mx-auto p-3"
       :class="{
         'rounded-xl': !scrolled,
         'max-w-5xl': !scrolled,
         'max-w-full': scrolled,
-        'p-6': !scrolled,
-        'p-2': scrolled,
+        'sm:p-6': !scrolled,
+        'sm:p-4': scrolled,
         'bg-opacity-100': scrolled,
       }"
     >
@@ -33,7 +33,9 @@
           </li>
         </ul>
         <div
-          class="flex flex-col justify-between items-end bg-gray-200 py-4 px-3 sm:hidden toggle-btn rounded-2xl cursor-pointer"
+          class="flex flex-col justify-between items-end bg-gray-200 py-4 px-3 sm:hidden toggle-btn rounded-2xl cursor-pointer toggle-button"
+          :class="{ 'toggle--active': showMobileMenu }"
+          @click="showMobileMenu = !showMobileMenu"
         >
           <span class="w-8 h-1 one bg-black block rounded-full"></span>
           <span class="w-6 h-1 two bg-black block rounded-full mt-2"></span>
@@ -55,6 +57,7 @@ export default {
   },
   data() {
     return {
+      showMobileMenu: false,
       scrolled: false,
     }
   },
@@ -81,5 +84,17 @@ export default {
 nav,
 #nav-wrapper {
   transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.toggle-button * {
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.toggle--active span {
+  width: 29px;
+}
+.toggle--active span:first-child {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.toggle--active span:last-child {
+  transform: rotate(-45deg) translate(4px, -5px);
 }
 </style>
