@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-x-hidden bg-gradient-to-t from-gray-200">
+  <section class="overflow-x-hidden bg-gradient-to-t from-gray-200 to-white">
     <div
       class="max-w-5xl py-10 mx-auto flex sm:flex-row sm:text-left text-center flex-col justify-between items-center"
     >

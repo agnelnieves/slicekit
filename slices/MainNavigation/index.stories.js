@@ -22,7 +22,7 @@ export const DefaultSlice = () => ({
     }
   },
   template:
-    '<div style="background: #3182ce; padding: 20px; height: 120vh; display: flex; justify-content: center; align-items: center;"><h2 style="font-size: 3rem; color: white;">Page Content</h2><slice-zone :slices="[ mock ]" :resolver="resolver" /></div>',
+    '<div style="background: #3182ce; padding: 20px; height: 110vh; display: flex; flex-direction: column; justify-content: center; align-items: center;"><h2 style="font-size: 3rem; color: white;">Page Content</h2> <p style="color: white;">Pssst, make sure to scroll, and check the mobile version</p><slice-zone :slices="[ mock ]" :resolver="resolver" /></div>',
 })
 
 DefaultSlice.storyName = mocks[0].name
