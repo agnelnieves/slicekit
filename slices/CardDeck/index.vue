@@ -1,7 +1,7 @@
 <template>
   <section
     ref="cardDeckSection"
-    class="section py-20 px-4 bg-gradient-to-t from-blue-100"
+    class="py-20 px-4 bg-gradient-to-t from-blue-100"
   >
     <prismic-rich-text
       class="text-center text-sm uppercase text-blue-600 font-semibold sticky"
@@ -25,7 +25,7 @@
         </div>
         <div class="px-5 box-content mx-auto">
           <prismic-rich-text
-            class="text-3xl leading-8 font-semibold mt-4 sm:mt-0"
+            class="text-3xl leading-8 font-bold mt-4 mb-2 sm:mt-0"
             :field="card.cardTitle"
           />
           <prismic-rich-text :field="card.cardDescription" />

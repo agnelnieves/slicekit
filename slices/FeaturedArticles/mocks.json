@@ -1,0 +1,76 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FeaturedArticles",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "insights",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Some pieces of knowledge for you",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "image": {
+          "dimensions": { "width": 900, "height": 500 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/3d004e4f-9a5c-49b4-9da7-782d2603f6be_S_M_yDChHkc.jpg?w=900&h=500"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "Save development time with slices",
+            "spans": []
+          }
+        ],
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      },
+      {
+        "image": {
+          "dimensions": { "width": 900, "height": 500 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/4ac0a22f-06e4-400c-8b1f-29bb64d3bbe7_1IqWqCzYJPs.jpg?w=900&h=500"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "leverage impactful platforms",
+            "spans": []
+          }
+        ],
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      },
+      {
+        "image": {
+          "dimensions": { "width": 900, "height": 500 },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.prismic.io/important-sm-images/dec29fb6-148b-4715-9f71-30b5cea3fcec_pXEskkt0tpg.jpg?w=900&h=500"
+        },
+        "title": [
+          {
+            "type": "heading1",
+            "text": "visualize back-end vortals",
+            "spans": []
+          }
+        ],
+        "link": { "link_type": "Web", "url": "https://slicemachine.dev" }
+      }
+    ],
+    "slice_type": "featured_articles"
+  }
+]
