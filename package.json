@@ -13,10 +13,12 @@
     "build": "yarn build-storybook && shx mv storybook-static dist",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
-    "slicemachine": "start-slicemachine --port 5000",
+    "slicemachine": "start-slicemachine --port 9999",
     "storybook": "nuxt storybook",
     "build-storybook": "nuxt storybook build",
-    "prismic:slice": "prismic sm --create-slice"
+    "prismic:slice": "prismic sm --create-slice",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
     "@nuxtjs/prismic": "^1.2.4",
@@ -27,12 +29,20 @@
     "vue-slicezone": "^0.0.28"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "@nuxtjs/storybook": "2.2.2",
     "@nuxtjs/tailwindcss": "^3.2.0",
     "@storybook/addon-essentials": "^6.1.2",
     "prismic-cli": "3.8.3-beta.0",
     "shx": "^0.3.3",
     "slice-machine-ui": "^0.0.38",
-    "sm-commons": "^0.0.23"
+    "sm-commons": "^0.0.23",
+    "prettier": "^2.0.5"
   }
 }

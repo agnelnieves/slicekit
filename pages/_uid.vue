@@ -7,11 +7,11 @@ https://www.slicemachine.dev/documentation/nuxt/add-the-slice-zone-to-your-page
 </template>
 
 <script>
-import SliceZone from "vue-slicezone";
+import SliceZone from 'vue-slicezone'
 
 export default {
   components: {
-    SliceZone
-  }
-};
+    SliceZone,
+  },
+}
 </script>
