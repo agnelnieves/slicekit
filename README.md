@@ -26,7 +26,7 @@ Slicekit is a Simple, Useful & modular Prismic slices to get your project starte
 
 ## 🎨 &nbsp; Designing
 
-Slicekit was designed using [Figma](https://figma.com/), anyone can access the figma file with viewing permissions. Feel free to reach out if you would like to contribute on the design. Make sure to create a Figma account.
+Slicekit was designed using [Figma](https://figma.com/), anyone can access the figma file [HERE](https://www.figma.com/file/rnLmjTRnV2hhzK9zzTXtl0/Slicekit?node-id=0%3A1) with viewing permissions. Feel free to reach out if you would like to contribute on the design. Make sure to create a Figma account.
 
 ## 👩‍💻 &nbsp;Developing
 
