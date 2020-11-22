@@ -5,7 +5,7 @@
       :field="slice.primary.title"
     />
     <prismic-rich-text
-      class="text-center text-5xl font-bold max-w-2xl mx-auto leading-tight mb-4"
+      class="text-center text-4xl sm:text-5xl font-bold max-w-2xl mx-auto leading-tight mb-4"
       :field="slice.primary.description"
     />
     <SkButton is-centered :field="slice.primary.ctaLink">

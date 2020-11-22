@@ -9,7 +9,7 @@
       :field="slice.primary.title"
     />
     <prismic-rich-text
-      class="text-center text-5xl font-bold max-w-2xl mx-auto leading-tight mb-12 sticky"
+      class="text-center sm:text-5xl text-4xl font-bold max-w-2xl mx-auto leading-tight mb-12 sticky"
       style="top: 4rem"
       :field="slice.primary.description"
     />
