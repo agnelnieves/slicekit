@@ -36,7 +36,7 @@
         <div
           class="flex flex-col justify-between items-end bg-gray-200 py-4 px-3 sm:hidden toggle-btn rounded-2xl cursor-pointer toggle-button"
           :class="{ 'toggle--active': showMobileMenu }"
-          @click="showMobileMenu = !showMobileMenu"
+          @click="toggleMobileMenu"
         >
           <span class="w-8 h-1 one bg-black block rounded-full"></span>
           <span class="w-6 h-1 two bg-black block rounded-full mt-2"></span>
@@ -67,6 +67,7 @@
   </nav>
 </template>
 <script>
+import { disableScroll, enableScroll } from '~/utils/utils'
 export default {
   props: {
     slice: {
@@ -81,6 +82,8 @@ export default {
     return {
       showMobileMenu: false,
       scrolled: false,
+      wheelEvent:
+        'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel',
     }
   },
   beforeMount() {
@@ -90,6 +93,13 @@ export default {
     window.removeEventListener('scroll', this.handleSCroll)
   },
   methods: {
+    toggleMobileMenu() {
+      this.showMobileMenu = !this.showMobileMenu
+
+      this.showMobileMenu
+        ? disableScroll(this.wheelEvent)
+        : enableScroll(this.wheelEvent)
+    },
     handleSCroll(event) {
       const scrollOffset = 100
       if (window.scrollY > scrollOffset) {
