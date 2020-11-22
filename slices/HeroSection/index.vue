@@ -1,7 +1,7 @@
 <template>
   <section class="overflow-x-hidden bg-gradient-to-t from-gray-200 to-white">
     <div
-      class="max-w-5xl py-10 mx-auto flex sm:flex-row sm:text-left text-center flex-col justify-between items-center"
+      class="max-w-5xl py-10 mx-auto flex sm:flex-row sm:text-left text-center flex-col justify-center items-center sm:justify-between"
     >
       <div class="max-w-md p-4">
         <prismic-rich-text
@@ -42,3 +42,10 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+section,
+section > div {
+  min-height: 80vh;
+}
+</style>

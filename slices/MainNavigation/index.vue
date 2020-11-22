@@ -7,7 +7,7 @@
   >
     <div
       id="nav-wrapper"
-      class="bg-white w-full mx-auto p-3 overflow-hidden"
+      class="bg-white w-full mx-auto p-3 overflow-hidden shadow-lg"
       :class="{
         'rounded-xl': !scrolled,
         'max-w-5xl': !scrolled,
@@ -82,8 +82,6 @@ export default {
     return {
       showMobileMenu: false,
       scrolled: false,
-      wheelEvent:
-        'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel',
     }
   },
   beforeMount() {
@@ -97,8 +95,12 @@ export default {
       this.showMobileMenu = !this.showMobileMenu
 
       this.showMobileMenu
-        ? disableScroll(this.wheelEvent)
-        : enableScroll(this.wheelEvent)
+        ? disableScroll(
+            'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel'
+          )
+        : enableScroll(
+            'onwheel' in document.createElement('div') ? 'wheel' : 'mousewheel'
+          )
     },
     handleSCroll(event) {
       const scrollOffset = 100
@@ -151,5 +153,11 @@ nav,
   100% {
     opacity: 1;
   }
+}
+</style>
+
+<style scoped>
+nav {
+  z-index: 80;
 }
 </style>

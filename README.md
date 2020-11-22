@@ -3,6 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/11417ccd-aca2-44c2-8e9f-5a142bb876a1/deploy-status)](https://app.netlify.com/sites/slicekit/deploys)
 
 [slicekit.dev](https://slicekit.dev/)
+[Storybook Playground](https://slicekit.dev/playground)
 
 Slicekit is a Simple, Useful & modular Prismic slices to get your project started.
 
@@ -71,7 +72,8 @@ To keep track of your progress and to be sure not to miss anything here's a simp
 
 - [x] My library contains at least **5 different slices**
 - [x] I have updated the [LICENSE](./LICENSE) to credit myself for my library
-- [x] The Storybook documentation is hosted here: <https://slicekit.dev/>
+- [x] The Storybook documentation is hosted here: <https://slicekit.dev/playground>
+- [x] Added a test website preview using slices & prismic here: <https://slicekit.dev/>
 - [x] My library does not contain any non-public licensed assets
 
 > ☝️ For comprehensive rules refer to the contest [blog post](https://prismic.io/blog/slice-contest?utm_campaign=devexp&utm_source=github&utm_medium=slicecontestpost).

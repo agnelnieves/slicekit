@@ -15,7 +15,7 @@
     />
     <div ref="cardDeck">
       <div
-        v-for="(card, i) in slice.primary.items"
+        v-for="(card, i) in slice.items"
         :key="i"
         style="top: 16rem"
         class="sk-card-item origin-top flex box-content px-4 justify-between items-center relative text-base bg-white shadow-lg rounded-2xl p-5 max-w-3xl mx-auto sticky sm:text-lg text-center mb-3 flex-col sm:flex-row-reverse"
