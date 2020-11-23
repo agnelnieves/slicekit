@@ -18,6 +18,7 @@ Slicekit is a Simple, Useful & modular Prismic slices to get your project starte
   - [☑️ &nbsp;Submission Checklist](#️-submission-checklist)
   - [🪧 &nbsp; Credits](#--credits)
     - [Technologies used](#technologies-used)
+- [Todo](#todo)
 
 ## 👀 &nbsp; Preview
 
@@ -95,3 +96,10 @@ Slicekit was designed & developed by [Agnel Nieves](https://github.com/agnelniev
 - [Prismic](https://prismic.io/)
 - [SliceMachine](http://slicemachine.dev/)
 - [TailwindCss](https://tailwindcss.com/)
+
+## Todo
+
+- [ ] Improve accessibility
+- [ ] Improve image performance, lazy loading
+- [ ] Add Contact slice
+- [ ] Improve SEO
