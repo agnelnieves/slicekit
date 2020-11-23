@@ -10,8 +10,9 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
+
   head: {
-    title: 'slice-library-starter-nuxt',
+    title: 'Slicekit, slices library for prismic',
     meta: [
       {
         charset: 'utf-8',
@@ -23,7 +24,56 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: '',
+        content:
+          'Slicekit is a Simple, Useful & modular Prismic slices to get your project started. Learn more at slicekit.dev',
+      },
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        property: 'twitter:url',
+        content: 'https://slicekit.dev/',
+      },
+      {
+        property: 'twitter:title',
+        content: 'Slicekit, slices library for prismic',
+      },
+      {
+        property: 'twitter:description',
+        content:
+          'Slicekit is a Simple, Useful & modular Prismic slices to get your project started. Learn more at slicekit.dev',
+      },
+      {
+        property: 'twitter:image',
+        content:
+          'https://images.prismic.io/slicekit/39c554eb-b5a0-4110-b767-544a44c49158_github+repo+image.png?auto=compress,format',
+      },
+      {
+        name: 'title',
+        content: 'Slicekit, slices library for prismic',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:url',
+        content: 'https://slicekit.dev/',
+      },
+      {
+        property: 'og:title',
+        content: 'Slicekit, slices library for prismic',
+      },
+      {
+        property: 'og:description',
+        content:
+          'Slicekit is a Simple, Useful & modular Prismic slices to get your project started. Learn more at slicekit.dev',
+      },
+      {
+        property: 'og:image',
+        content:
+          'https://images.prismic.io/slicekit/39c554eb-b5a0-4110-b767-544a44c49158_github+repo+image.png?auto=compress,format',
       },
     ],
     link: [
