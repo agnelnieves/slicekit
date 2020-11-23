@@ -3,10 +3,12 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/11417ccd-aca2-44c2-8e9f-5a142bb876a1/deploy-status)](https://app.netlify.com/sites/slicekit/deploys)
 
 [slicekit.dev](https://slicekit.dev/)
+
 [Storybook Playground](https://slicekit.dev/playground)
 
 Slicekit is a Simple, Useful & modular Prismic slices to get your project started.
 
+- [👀 &nbsp; Preview](#--preview)
 - [📚 &nbsp;Useful Links](#-useful-links)
 - [🎨 &nbsp; Designing](#--designing)
 - [👩‍💻 &nbsp;Developing](#-developing)
@@ -16,6 +18,10 @@ Slicekit is a Simple, Useful & modular Prismic slices to get your project starte
   - [☑️ &nbsp;Submission Checklist](#️-submission-checklist)
   - [🪧 &nbsp; Credits](#--credits)
     - [Technologies used](#technologies-used)
+
+## 👀 &nbsp; Preview
+
+<img src="./preview-image.png" style="border-radius: 2rem; margin: 1rem auto"/>
 
 ## 📚 &nbsp;Useful Links
 
