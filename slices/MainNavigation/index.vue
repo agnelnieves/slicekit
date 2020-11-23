@@ -33,14 +33,14 @@
             </prismic-link>
           </li>
         </ul>
-        <div
+        <button
           class="flex flex-col justify-between items-end bg-gray-200 py-4 px-3 sm:hidden toggle-btn rounded-2xl cursor-pointer toggle-button"
           :class="{ 'toggle--active': showMobileMenu }"
           @click="toggleMobileMenu"
         >
           <span class="w-8 h-1 one bg-black block rounded-full"></span>
           <span class="w-6 h-1 two bg-black block rounded-full mt-2"></span>
-        </div>
+        </button>
       </div>
       <div
         id="mobileMenu"

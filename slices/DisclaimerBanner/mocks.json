@@ -1,0 +1,20 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "DisclaimerBanner",
+    "primary": {
+      "disclaimer": [
+        {
+          "type": "paragraph",
+          "text": "By continuing to use this website, you consent to the use of cookies in accordance with our Cookie Policy.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [],
+    "slice_type": "disclaimer_banner"
+  }
+]

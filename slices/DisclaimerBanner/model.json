@@ -1,0 +1,27 @@
+{
+  "id": "disclaimer_banner",
+  "type": "SharedSlice",
+  "name": "DisclaimerBanner",
+  "description": "DisclaimerBanner",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "DisclaimerBanner",
+      "primary": {
+        "disclaimer": {
+          "config": {
+            "label": "Disclaimer",
+            "placeholder": "Disclaimer, privacy policies, etc",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

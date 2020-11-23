@@ -5,3 +5,5 @@ export { default as CtaSection } from './CtaSection'
 export { default as MainFooter } from './MainFooter'
 
 export { default as FeaturedArticles } from './FeaturedArticles'
+
+export { default as DisclaimerBanner } from './DisclaimerBanner'
