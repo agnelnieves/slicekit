@@ -10,12 +10,7 @@
       class="text-center text-4xl sm:text-5xl font-bold max-w-2xl mx-auto leading-tight mb-10"
       :field="slice.primary.description"
     />
-    <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      class="max-w-3xl mx-auto mb-3"
-    >
+    <form class="max-w-3xl mx-auto mb-3" @submit.prevent>
       <div class="box-content text-base bg-white shadow-lg rounded-2xl p-6">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <SkInput
@@ -55,7 +50,6 @@
       </div>
       <button
         class="mx-auto text-white bg-blue-600 font-bold py-3 px-10 mb-4 sm:mb-0 rounded-full block hover:bg-blue-700 box-content text-base mt-8"
-        type="submit"
       >
         Submit
       </button>
