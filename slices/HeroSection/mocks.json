@@ -1,1 +1,35 @@
-[{"id":"default-slice","name":"Default slice","docURL":"...","version":"sktwi1xtmkfgx8626","description":"HeroSection","primary":{"title":[{"type":"heading1","text":"Do amazing things with your time.","spans":[]}],"description":[{"type":"paragraph","text":"A design approach is a general philosophy that may or may not include a guide for specific methods.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1536662788222-6927ce05daea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHRpbWV8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60"},"ctaLink":{"link_type":"Web","url":"https://slicemachine.dev"},"ctaLabel":"Find out More"},"items":[],"slice_type":"hero_section"}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "HeroSection",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Do amazing things with your time.",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "A design approach is a general philosophy that may or may not include a guide for specific methods.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": { "width": 900, "height": 500 },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1536662788222-6927ce05daea?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHRpbWV8ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60"
+      },
+      "ctaLink": { "link_type": "Web", "url": "https://slicemachine.dev" },
+      "ctaLabel": "Find out More"
+    },
+    "items": [],
+    "slice_type": "hero_section"
+  }
+]

@@ -20,12 +20,13 @@
           }
         },
         "description": {
-          "type": "StructuredText",
           "config": {
-            "single": "paragraph",
             "label": "Description",
-            "placeholder": "A nice description of your product"
-          }
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
         },
         "image": {
           "config": {
@@ -36,17 +37,16 @@
           "type": "Image"
         },
         "ctaLink": {
-          "type": "Link",
           "config": {
-            "label": "",
-            "id": "ctaLink",
+            "label": "Call to action button link",
             "placeholder": "",
             "allowTargetBlank": true
-          }
+          },
+          "type": "Link"
         },
         "ctaLabel": {
           "config": {
-            "label": "",
+            "label": "Call to action button label",
             "placeholder": ""
           },
           "type": "Text"

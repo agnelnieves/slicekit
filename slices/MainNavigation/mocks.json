@@ -1,1 +1,35 @@
-[{"id":"default-slice","name":"Default slice","docURL":"...","version":"sktwi1xtmkfgx8626","description":"MainNavigation","primary":{"logo":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.prismic.io/important-sm-images/1e9d5359-fe8c-40b0-9a18-08dffb2311e9_5KxHdybrEyQ.jpg?w=900&h=500"}},"items":[{"link":{"link_type":"Web","url":"/"},"label":"About","cta":false},{"link":{"link_type":"Web","url":"/"},"label":"Features","cta":true},{"link":{"link_type":"web","url":"/"},"label":"Contact","cta":false}],"slice_type":"main_navigation"}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "MainNavigation",
+    "primary": {
+      "logo": {
+        "dimensions": { "width": 900, "height": 500 },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://prismic-io.s3.amazonaws.com/slicekit/8d636975-2ea0-4cdf-ba2d-d1edd0c7171a_logo.svg"
+      }
+    },
+    "items": [
+      {
+        "link": { "link_type": "Web", "url": "/" },
+        "label": "About",
+        "cta": false
+      },
+      {
+        "link": { "link_type": "Web", "url": "/" },
+        "label": "Features",
+        "cta": true
+      },
+      {
+        "link": { "link_type": "web", "url": "/" },
+        "label": "Contact",
+        "cta": false
+      }
+    ],
+    "slice_type": "main_navigation"
+  }
+]

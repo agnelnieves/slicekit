@@ -39,23 +39,21 @@
           }
         },
         "title": {
-          "type": "StructuredText",
           "config": {
-            "label": "",
-            "id": "title",
+            "label": "Title",
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
-          }
+          },
+          "type": "StructuredText"
         },
         "link": {
-          "type": "Link",
           "config": {
-            "label": "",
-            "id": "link",
+            "label": "Link",
             "placeholder": "",
             "allowTargetBlank": true
-          }
+          },
+          "type": "Link"
         }
       }
     }

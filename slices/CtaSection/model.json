@@ -28,21 +28,19 @@
           }
         },
         "ctaLabel": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "ctaLabel",
+            "label": "Call to action button label",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "ctaLink": {
-          "type": "Link",
           "config": {
-            "label": "",
-            "id": "ctaLink",
+            "label": "Call to action button link",
             "placeholder": "",
             "allowTargetBlank": true
-          }
+          },
+          "type": "Link"
         }
       },
       "items": {}

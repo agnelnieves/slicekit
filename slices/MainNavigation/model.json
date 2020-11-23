@@ -23,32 +23,29 @@
       },
       "items": {
         "link": {
-          "type": "Link",
           "config": {
-            "label": "",
-            "id": "link",
+            "label": "Link",
             "placeholder": "",
             "allowTargetBlank": true
-          }
+          },
+          "type": "Link"
         },
         "label": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "label",
+            "label": "Label",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "cta": {
-          "type": "Boolean",
           "config": {
-            "label": "",
-            "id": "cta",
+            "label": "Is Call to Action?",
             "placeholder": "",
             "placeholder_false": "false",
             "placeholder_true": "true",
             "default_value": true
-          }
+          },
+          "type": "Boolean"
         }
       }
     }

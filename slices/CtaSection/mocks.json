@@ -1,1 +1,25 @@
-[{"id":"default-slice","name":"Default slice","docURL":"...","version":"sktwi1xtmkfgx8626","description":"CtaSection","primary":{"title":[{"type":"heading1","text":"Explore what we can do","spans":[]}],"description":[{"type":"paragraph","text":"Amazing call to action message that will result in conversion","spans":[]}],"ctaLabel":"Check it out now","ctaLink":{"link_type":"Web","url":"https://google.com"}},"items":[],"slice_type":"cta_section"}]
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "CtaSection",
+    "primary": {
+      "title": [
+        { "type": "heading1", "text": "Explore what we can do", "spans": [] }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Amazing call to action message that will result in conversion",
+          "spans": []
+        }
+      ],
+      "ctaLabel": "Check it out now",
+      "ctaLink": { "link_type": "Web", "url": "https://google.com" }
+    },
+    "items": [],
+    "slice_type": "cta_section"
+  }
+]
