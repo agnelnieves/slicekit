@@ -1,0 +1,50 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ContactForm",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Get in touch",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Feel free to say hello, want some coffee?",
+          "spans": []
+        }
+      ],
+      "buttonLabel": "Submit",
+      "textAreaLabel": "Message",
+      "textAreaPlaceholder": "Message here",
+      "textAreaHelperText": "Please enter a brief message"
+    },
+    "items": [
+      {
+        "label": "Full Name",
+        "placeholder": "John Wick",
+        "errorMessage": "Something's wrong with the form",
+        "type": "text",
+        "inputID": "full_name",
+        "helperText": "Write your full name",
+        "required": true
+      },
+      {
+        "label": "Email",
+        "placeholder": "babayaga1969@ruskaroma.org",
+        "errorMessage": "Something's wrong with the form",
+        "type": "email",
+        "inputID": "email",
+        "helperText": "Write your email",
+        "required": true
+      }
+    ],
+    "slice_type": "contact_form"
+  }
+]

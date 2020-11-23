@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-4 bg-blue-800">
+  <section class="py-32 px-4 bg-blue-800">
     <prismic-rich-text
       :field="slice.primary.title"
       class="text-center text-sm uppercase text-white font-semibold"
@@ -15,7 +15,7 @@
         :field="article.link"
       >
         <figure
-          class="relative text-base bg-white shadow-lg rounded-2xl p-3 mx-auto"
+          class="relative text-base bg-white shadow-lg rounded-2xl p-3 mx-auto h-full"
           style="max-width: 20rem"
         >
           <prismic-image
@@ -23,7 +23,7 @@
             :field="article.image"
           ></prismic-image>
           <prismic-rich-text
-            class="sm:text-2xl text-xl leading-6 sm:leading-7 md:leading-8 font-bold mt-2"
+            class="sm:text-2xl text-xl leading-6 sm:leading-7 md:leading-8 font-bold py-3"
             :field="article.title"
           />
         </figure>

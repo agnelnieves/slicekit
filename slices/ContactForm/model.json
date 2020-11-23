@@ -1,0 +1,120 @@
+{
+  "id": "contact_form",
+  "type": "SharedSlice",
+  "name": "ContactForm",
+  "description": "ContactForm",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContactForm",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "buttonLabel": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "buttonLabel",
+            "placeholder": ""
+          }
+        },
+        "textAreaLabel": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "textAreaLabel",
+            "placeholder": ""
+          }
+        },
+        "textAreaPlaceholder": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "textAreaPlaceholder",
+            "placeholder": ""
+          }
+        },
+        "textAreaHelperText": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "textAreaHelperText",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "label": {
+          "config": {
+            "label": "Input label",
+            "placeholder": "Full Name"
+          },
+          "type": "Text"
+        },
+        "placeholder": {
+          "config": {
+            "label": "Input Placeholder",
+            "placeholder": "John Doe"
+          },
+          "type": "Text"
+        },
+        "errorMessage": {
+          "config": {
+            "label": "Input Error message",
+            "placeholder": "Something's wrong with the form"
+          },
+          "type": "Text"
+        },
+        "type": {
+          "config": {
+            "label": "Type of input",
+            "placeholder": "text"
+          },
+          "type": "Text"
+        },
+        "inputID": {
+          "config": {
+            "label": "Unique id (no spaces, lowercase)",
+            "placeholder": "example_id"
+          },
+          "type": "Text"
+        },
+        "helperText": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "helperText",
+            "placeholder": ""
+          }
+        },
+        "required": {
+          "config": {
+            "label": "Input is required?",
+            "placeholder": "true or false",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      }
+    }
+  ]
+}

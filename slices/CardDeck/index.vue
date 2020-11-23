@@ -1,7 +1,7 @@
 <template>
   <section
     ref="cardDeckSection"
-    class="py-20 px-4 bg-gradient-to-t from-blue-100 to-white"
+    class="py-32 px-4 bg-gradient-to-t from-blue-100 to-white"
   >
     <prismic-rich-text
       class="text-center text-sm uppercase text-blue-600 font-semibold sticky"

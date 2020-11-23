@@ -1,5 +1,7 @@
 <template>
-  <section class="overflow-x-hidden bg-gradient-to-t from-gray-200 to-white">
+  <section
+    class="overflow-x-hidden bg-gradient-to-t from-gray-200 to-white py-32"
+  >
     <div
       class="max-w-5xl py-10 mx-auto flex sm:flex-row sm:text-left text-center flex-col justify-center items-center sm:justify-between"
     >
@@ -16,7 +18,7 @@
           {{ slice.primary.ctaLabel }}
         </SkButton>
       </div>
-      <div class="sm:max-w-xs md:max-w-sm p-4">
+      <div class="sm:max-w-xs md:max-w-sm p-4 hidden sm:block">
         <prismic-image
           :field="slice.primary.image"
           class="rounded-3xl max-w-full"
@@ -46,6 +48,6 @@ export default {
 <style scoped>
 section,
 section > div {
-  min-height: 80vh;
+  min-height: 70vh;
 }
 </style>

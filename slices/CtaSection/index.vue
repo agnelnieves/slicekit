@@ -1,5 +1,5 @@
 <template>
-  <section class="section py-20 px-4 bg-blue-100 text-center">
+  <section class="section py-32 px-4 bg-blue-100 text-center">
     <prismic-rich-text
       class="text-center text-sm uppercase text-blue-600 font-semibold"
       :field="slice.primary.title"
