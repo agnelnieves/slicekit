@@ -20,44 +20,48 @@
           }
         },
         "description": {
-          "type": "StructuredText",
           "config": {
-            "single": "paragraph",
             "label": "Description",
-            "placeholder": "A nice description of your product"
-          }
+            "placeholder": "A nice description of your product",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
         },
         "buttonLabel": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "buttonLabel",
+            "label": "Submit Button Label",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "textAreaLabel": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "textAreaLabel",
+            "label": "Text Area Label",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "textAreaPlaceholder": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "textAreaPlaceholder",
+            "label": "Text Area Placeholder",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "textAreaHelperText": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "textAreaHelperText",
+            "label": "Text Area Helper Text",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
+        },
+        "formspreeUrl": {
+          "config": {
+            "label": "Formspree Url",
+            "placeholder": "https://formspree.io/f/yourEndPoint"
+          },
+          "type": "Text"
         }
       },
       "items": {
@@ -97,12 +101,11 @@
           "type": "Text"
         },
         "helperText": {
-          "type": "Text",
           "config": {
-            "label": "",
-            "id": "helperText",
+            "label": "Helper text",
             "placeholder": ""
-          }
+          },
+          "type": "Text"
         },
         "required": {
           "config": {

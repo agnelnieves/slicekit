@@ -23,7 +23,8 @@
       "buttonLabel": "Submit",
       "textAreaLabel": "Message",
       "textAreaPlaceholder": "Message here",
-      "textAreaHelperText": "Please enter a brief message"
+      "textAreaHelperText": "Please enter a brief message",
+      "formspreeUrl": "https://formspree.io/f/xwkwneya"
     },
     "items": [
       {
