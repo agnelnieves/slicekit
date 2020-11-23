@@ -21,8 +21,7 @@
       <div
         class="nav-content flex justify-between items-center max-w-5xl mx-auto"
       >
-        <img width="120" src="logo.svg" alt="" />
-        <!-- <prismic-image style="max-width: 200px" :field="slice.primary.logo"/> -->
+        <prismic-image style="max-width: 120px" :field="slice.primary.logo" />
         <ul class="m-0 p-0 hidden sm:flex">
           <li v-for="(link, i) in slice.items" :key="i">
             <prismic-link
