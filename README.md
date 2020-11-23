@@ -20,6 +20,7 @@ Slicekit is a Simple, Useful & modular Prismic slices to get your project starte
   - [🪧 &nbsp; Credits](#--credits)
     - [Technologies used](#technologies-used)
 - [Todo](#todo)
+- [Time Spent in the project](#time-spent-in-the-project)
 
 ## 👀 &nbsp; Preview
 
@@ -111,3 +112,7 @@ Slicekit was designed & developed by [Agnel Nieves](https://github.com/agnelniev
 - [ ] Improve image performance, lazy loading
 - [ ] Add Contact slice
 - [ ] Improve SEO
+
+## Time Spent in the project
+
+<img src="./time-spent-wakatime.png" alt="Time spent in project"/>
