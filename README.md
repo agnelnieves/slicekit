@@ -14,6 +14,7 @@ Slicekit is a Simple, Useful & modular Prismic slices to get your project starte
 - [👩‍💻 &nbsp;Developing](#-developing)
   - [Creating a Slice](#creating-a-slice)
   - [Launching the Slice Builder](#launching-the-slice-builder)
+  - [Contact form configuration](#contact-form-configuration)
 - [Contest](#contest)
   - [☑️ &nbsp;Submission Checklist](#️-submission-checklist)
   - [🪧 &nbsp; Credits](#--credits)
@@ -70,6 +71,13 @@ $ yarn prismic sm --develop
 This will launch Storybook on port `3003` and the Slice Builder on port `9999`, you can open a third terminal to create slices from or launch other commands...
 
 For comprehensive documentation about using the Slice Builder check the dedicated [documentation](https://www.slicemachine.dev/documentation/slice-builder#using-the-slice-builder).
+
+### Contact form configuration
+
+The contact form slice, uses [formspree](https://formspree.io/) for its funcitionality. In order to enable form submissions you have to create an account in [formspree](https://formspree.io/register), create a new project, create a new form, and copy the full url provided, example: `https://formspree.io/f/someEndpoint`.
+
+Then add the url on prismic's dashboard:
+<img src="./contact-config.png">
 
 ## Contest
 
