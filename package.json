@@ -10,7 +10,7 @@
     "nuxt:build": "nuxt build",
     "nuxt:start": "nuxt start",
     "nuxt:generate": "nuxt generate",
-    "build": "yarn build-storybook && shx mv storybook-static dist",
+    "build": "nuxt generate && yarn build-storybook && shx mv storybook-static dist/playground",
     "prepublishOnly": "node ./node_modules/sm-commons/scripts/bundle",
     "prismic": "prismic",
     "slicemachine": "start-slicemachine --port 5000",
